@@ -1,0 +1,15 @@
+{
+  "name": "dt-uni-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Bewerbungstool für deutsche Unis — ersetzt traditionelle Studienberatungs-Agenturen",
+  "scripts": {
+    "init-db": "node scripts/init-db.mjs",
+    "ingest:wikidata": "node scripts/ingest-wikidata.mjs",
+    "report": "node scripts/report.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
