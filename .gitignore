@@ -7,3 +7,7 @@ data/*.db-shm
 *.log
 .env
 .DS_Store
+
+# Tencent Cloud EdgeOne
+.edgeone/
+.tef_dist/
