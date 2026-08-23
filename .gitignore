@@ -1,5 +1,6 @@
 node_modules/
 data/*.db
+!data/dt-uni.db
 data/*.db-journal
 data/*.db-wal
 data/*.db-shm

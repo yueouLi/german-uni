@@ -15,9 +15,13 @@
 ## Struktur
 
 ```
-sql/         SQL migrations (001_schema.sql = 骨架)
-scripts/     Node ETL scripts
-data/        SQLite database (nicht in git)
+docs/          Projektdokumentation und Statusberichte
+sql/           SQL migrations (001_schema.sql = 骨架)
+scripts/       Node ETL-, Scraper- und Diagnose-Skripte
+data/          Aktuelle SQLite-Datenbank
+data/backups/  Historische Datenbank- und Viewer-Stände
+data/raw/      Rohdaten-Snapshots der Importe
+viewer.html    Generierte Offline-Anwendung
 ```
 
 ## Setup
